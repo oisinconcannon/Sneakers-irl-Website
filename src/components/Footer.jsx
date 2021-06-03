@@ -6,7 +6,7 @@ function Footer() {
       <footer class="py-1 bg-dark fixed-bottom">
         <div class="container">
           <p class="m-0 text-centre text-white">
-            Copyright &copy; Sneakers Ireland 2020        
+            Copyright &copy; Sneakers Ireland 2020
           </p>
 
         </div>

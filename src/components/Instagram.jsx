@@ -1,10 +1,9 @@
 import React from "react";
 
-
-
-function About() {
+function Instagram() {
   return (
-    <div className="about">
+
+    <div className="instagram">
       <div class="container">
         <div class="row align-items-center my-5">
           <div class="col-lg-7">
@@ -15,7 +14,8 @@ function About() {
             />
           </div>
           <div class="col-lg-5">
-            <h1 class="font-weight-light">About</h1>
+
+            <h1 class="font-weight-light">Instagram</h1>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
@@ -26,8 +26,9 @@ function About() {
           </div>
         </div>
       </div>
-    </div>
+      </div>
+
   );
 }
 
-export default About;
+export default Instagram;
