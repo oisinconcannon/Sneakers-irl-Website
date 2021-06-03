@@ -1,17 +1,13 @@
 import React from "react";
 import logo from './logo.jpg';
 import './../App.css'
-import {Spring} from 'react-spring';
+
 function Home() {
   return (
 
       <div className="home">
         <div class="container">
-        <Spring
-        from={{opacity:0, marginTop: -500}}
-        to={{opacity:1,marginTop: 0}}>
-        {props => (
-          <div style={props}>
+
           <div class="row align-items-center my-5">
             <div class="col-lg-7">
               <img src={logo} className="App-logo" alt="logo" />
@@ -25,9 +21,7 @@ function Home() {
               </p>
             </div>
           </div>
-          </div>
-        )}
-        </Spring>
+
         </div>
       </div>
 
